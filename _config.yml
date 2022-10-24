@@ -1,0 +1,71 @@
+# Site settings
+title: "Mohammad Alharbi"
+description: "My resume."
+
+# Build settings
+markdown: kramdown
+sass:
+  sass_dir: _sass
+  style: compressed
+
+# Resume settings
+resume_avatar:                  "true"
+resume_name:                    "Mohammad Saqar Alharbi"
+resume_title:                   "Computer Science Instructor @ TVTC"
+
+# used for the contact button in _layouts/resume.html
+resume_contact_email:           "msalharbi@gmail.com"
+
+# the next two items are used for schema itemprops in _layouts/resume.html
+resume_contact_telephone:       "(966) 542245644"
+resume_contact_address:         "7941 Omar Bin Alkhattab, Aljawharah, Unaizah"
+
+resume_header_contact_info:     "7941 Omar Bin Alkhattab, Aljawharah, Unaizah • (966) 542245644 • msalharbi@gmail.com"
+display_header_contact_info:    "false"
+
+resume_header_intro: "<p>I love data visualization and believe they are the best to communicate important messages to the audience.
+I also think data visualization improves insights and helps make data-driven decisions. 
+I developed multiple interactive designs to help users observe new insights within their data. 
+My work involved collaborating with scholars in the field of digital humanities and such a 
+collaboration enriched my experience in tackling different challenges and developed invaluable communication skills.
+From a personal perspective, I strive to excel, be active, and collaborate with others. I see changes as opportunities to move forward. 
+I enjoy teaching material that encourages students to innovate and be creative such as UX design. I also include data visualization whenever it is appropriate :)</p>"
+
+# use "yes" to display the email contact button,
+# "no" to display an "I'm not looking for work" message,
+# or remove the resume_looking_for_work option entirely
+# to leave blank
+resume_looking_for_work:        "yes"
+
+# Decide which sections to use
+# comment out to hide
+resume_section_experience:      true
+resume_section_education:       true
+resume_section_projects:        true
+resume_section_skills:          false
+resume_section_recognition:     false
+resume_section_links:           false
+resume_section_associations:    true
+resume_section_trainings:       true
+# resume_section_interests:       true
+
+# Resume social links
+# uncomment the options you wish to display, and add your own URL
+resume_social_links:
+  # resume_github_url:            "https://github.com/jglovier/resume-template"
+  # resume_email_url:             "mailto:msalharbi@gmail.com"
+  resume_twitter_url:           "http://twitter.com/msalharbi"
+  # resume_dribbble_url:          "https://dribbble.com/jag"
+  # resume_facebook_url:          "insert Facebook URL here"
+  resume_linkedin_url:          "https://www.linkedin.com/in/ms-alharbi"
+  # resume_instagram_url:         "insert your Instagram URL here"
+  # resume_website_url:           "http://joelglovier.com"
+  # resume_medium_url:            "https://medium.com/@jglovier"
+resume_print_social_links:      false
+
+# Design settings
+resume_theme:                   default
+
+# Note: when editing locally, remember to restart
+# your Jekyll server when you edit this file. Changes
+# to _config.yml are only recognized when the server starts

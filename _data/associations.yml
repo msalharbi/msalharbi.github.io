@@ -1,0 +1,40 @@
+# Associations
+# comment out the urls if you do not wish to display them
+
+- # organization: PETA
+  role: "Workshop presented: NLTK in Translation Applications, Computer-Assisted Literary Translation (CALT)"
+  year: 2019
+  # url: https://www.peta.org/
+  # summary: Organized fund drives and participated in fundraising events for the benefit of PETA's local Springfield operations.
+
+- # organization: PETA
+  role: Local organizer at the Computer Graphics & Visual Computing (CGVC) conference
+  year: 2018
+  # url: https://www.peta.org/
+  # summary: Organized fund drives and participated in fundraising events for the benefit of PETA's local Springfield operations.
+
+
+- # organization: PETA
+  role: "Workshop presented: Introduction to The Natural Language Toolkit (NLTK), CGVC"
+  year: 2018
+  # url: https://www.peta.org/
+  # summary: Organized fund drives and participated in fundraising events for the benefit of PETA's local Springfield operations.
+
+- # organization: PETA
+  role: "Workshop presented: Parallel Translations, Post Graduate Conference, Swansea University"
+  year: 2018
+  # url: https://www.peta.org/
+  # summary: Organized fund drives and participated in fundraising events for the benefit of PETA's local Springfield operations.
+
+- # organization: PETA
+  role: "Workshop presented: Integrated Distant and Close Reading of Parallel Translations, Special Visible Lunch with Prof Ben Shneiderman"
+  year: 2018
+  # url: https://www.peta.org/
+  # summary: Organized fund drives and participated in fundraising events for the benefit of PETA's local Springfield operations.
+
+- # organization: PETA
+  role: "Poster presented: Integrated Distant and Close Reading of Parallel Translations, Post Graduate Conference, Swansea University "
+  year: 2017
+  # url: https://www.peta.org/
+  # summary: Organized fund drives and participated in fundraising events for the benefit of PETA's local Springfield operations.
+

@@ -1,0 +1,52 @@
+# Projects
+# uncomment the urls if you wish to display them, and add your own URL
+
+# jazznotes.io
+- project: "Cooperative Digital Humanities: A Methodology"
+  role: Conference paper
+  duration: 2021
+  url: "https://link.springer.com/chapter/10.1007/978-3-030-88207-5_6"
+  description: The 18th International Conference on Cooperative Design, Visualization, and Engineering (CDVE).
+
+# Springfield Community Outreach Group
+- project: "Visualization Resources: A Starting Point"
+  role: Conference paper, Co-author
+  duration: 2021
+  url: "https://www.computer.org/csdl/proceedings-article/iv/2021/382700a160/1y4oFWz20Ra"
+  description: The 25th International Conference on Information Visualization, (IV).
+
+- project: "VNLP: Visible Natural Language Processing"
+  role: Journal paper
+  duration: 2021
+  url: "https://journals.sagepub.com/doi/10.1177/14738716211038898"
+  description: Information Visualization Journal.
+
+- project: "AlignVis: Semi-Automotic Alignment and Visualization of Parallel Translations"
+  role: Conference paper
+  duration: 2020
+  # url: "https://www.computer.org/csdl/proceedings-article/iv/2021/382700a160/1y4oFWz20Ra"
+  description: The 24th International Conference on Information Visualization, (IV2020).
+
+- project: "TransVis: Integrated Distant and Close Reading of Othello Translations"
+  role: Journal paper
+  duration: 2020
+  url: "https://ieeexplore.ieee.org/document/9152170"
+  description: IEEE Transactions on Visualization and Computer Graphics.
+
+- project: "SoS TextVis: An Extended Survey of Surveys on Text Visualization"
+  role: Journal paper
+  duration: 2019
+  url: "https://www.mdpi.com/2073-431X/8/1/17"
+  description: Computers Journal
+
+- project: "SoS TextVis: A Survey of Surveys on Text Visualization"
+  role: Conference paper
+  duration: 2018
+  url: "https://diglib.eg.org/handle/10.2312/cgvc20181219"
+  description: The Computer Graphics and Visual Computing (CGVC)
+
+- project: "Molecular Visualization of Computational Biology Data: A Survey of Surveys"
+  role: Conference paper, Co-author
+  duration: 2017
+  url: "https://diglib.eg.org/handle/10.2312/eurovisshort20171146"
+  description: EuroVis Short Papers 2017
