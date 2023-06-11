@@ -10,3 +10,11 @@ git add .
 git status (this step is optional)
 git commit -m "type any message here"”" 
 git push
+
+
+<div class="social-links">
+        <a href="#" class="twitter"><i class="bi bi-twitter"></i></a>
+        <a href="#" class="facebook"><i class="bi bi-facebook"></i></a>
+        <a href="#" class="instagram"><i class="bi bi-instagram"></i></a>
+        <a href="#" class="linkedin"><i class="bi bi-linkedin"></i></a>
+      </div>
