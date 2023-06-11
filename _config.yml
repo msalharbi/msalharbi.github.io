@@ -49,7 +49,7 @@ resume_section_recognition:     false
 resume_section_links:           false
 resume_section_associations:    true
 resume_section_trainings:       true
-# resume_section_interests:       true
+resume_section_interests:       true
 
 # Resume social links
 # uncomment the options you wish to display, and add your own URL
