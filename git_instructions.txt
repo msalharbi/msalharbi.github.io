@@ -1,0 +1,5 @@
+Open terminal and enter the folder of the github repository/project you want to update
+git add .
+git status (this step is optional)
+git commit -m "type any message here"”" 
+git push
