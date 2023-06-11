@@ -10,7 +10,7 @@ sass:
 
 # Resume settings
 resume_avatar:                  "true"
-resume_name:                    "Mohammad Saqar Alharbi"
+resume_name:                    "Mohammad Alharbi"
 resume_title:                   "Computer Science Instructor @ TVTC"
 
 # used for the contact button in _layouts/resume.html
