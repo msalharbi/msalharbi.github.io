@@ -6,12 +6,16 @@ body {
 }
 
 header {
-    background-color: #abcddc;
+    background-color: #cddde3;
     color: rgb(60, 57, 57);
     text-align: center;
     padding: 1em 0;
 }
 
+#logo {
+    width: 50px; /* Adjust the width as needed */
+    height: auto;
+}
 nav {
     background-color: #7eb2c8;
     color: white;
@@ -36,13 +40,10 @@ nav a {
 }
 
 nav a:hover {
-    background-color: #abcddc;
+    background-color: #cddde3;
 }
 
-#logo {
-    width: 100px; /* Adjust the width as needed */
-    height: auto;
-}
+
 
 section {
     padding: 20px;
@@ -71,7 +72,7 @@ td {
 }
 
 footer {
-    background-color: #7eb2c8;
+    background-color: #cddde3;
     color: rgb(60, 57, 57);
     text-align: center;
     padding: 1em 0;
