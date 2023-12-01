@@ -5,6 +5,7 @@ body {
     background-color: #f4f4f4;
 }
 
+
 header {
     background-color: #cddde3;
     color: rgb(60, 57, 57);
@@ -12,10 +13,12 @@ header {
     padding: 1em 0;
 }
 
+
+
 #logo {
-    width: 50px; /* Adjust the width as needed */
-    height: auto;
+    margin-right: 20px; /* Adjust the margin as needed */
 }
+
 nav {
     background-color: #8fb4c4;
     color: white;
