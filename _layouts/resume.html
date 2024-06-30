@@ -137,6 +137,25 @@
       {% endif %}
 
 
+      {% if site.resume_section_trainings %}
+      <!-- begin Training -->
+      <section class="content-section">
+
+        <header class="section-header">
+          <h2>Certificates & Training</h2>
+        </header>
+        <!-- <li><h3>2016 &mdash; 2020</h3></li> -->
+        {% for training in site.data.trainings %}
+        <div class="resume-item" itemscope itemprop="memberOf" itemtype="http://schema.org/Organization">
+          <h3 class="resume-item-title" itemprop="name">{% if training.url %}<a href="{{ training.url }}">{{ training.organization }}</a>{% else %}{{ training.organization }}{% endif %}</h3>
+          <h4 class="resume-item-details" itemprop="description">{{ training.role }} &bull; {{ training.year }}</h4>
+          <p class="resume-item-copy">{{ training.summary }}</p>
+        </div>
+        {% endfor %}
+
+      </section>
+      <!-- end Associations -->
+      {% endif %}
 
       {% if site.resume_section_skills %}
       <!-- begin Skills -->
@@ -211,25 +230,6 @@
       {% endif %}
 
 
-      {% if site.resume_section_trainings %}
-      <!-- begin Training -->
-      <section class="content-section">
-
-        <header class="section-header">
-          <h2>Certificates & Training</h2>
-        </header>
-        <!-- <li><h3>2016 &mdash; 2020</h3></li> -->
-        {% for training in site.data.trainings %}
-        <div class="resume-item" itemscope itemprop="memberOf" itemtype="http://schema.org/Organization">
-          <h3 class="resume-item-title" itemprop="name">{% if training.url %}<a href="{{ training.url }}">{{ training.organization }}</a>{% else %}{{ training.organization }}{% endif %}</h3>
-          <h4 class="resume-item-details" itemprop="description">{{ training.role }} &bull; {{ training.year }}</h4>
-          <p class="resume-item-copy">{{ training.summary }}</p>
-        </div>
-        {% endfor %}
-
-      </section>
-      <!-- end Associations -->
-      {% endif %}
 
       {% if site.resume_section_links %} 
       <!-- begin Links -->
