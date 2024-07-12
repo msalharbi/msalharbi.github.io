@@ -164,6 +164,7 @@
   }
 
   .resume-item-title,
+  .resume-item-title-small,
   .resume-item-details,
   .resume-item-copy,
   .resume-item-list {
@@ -223,7 +224,8 @@
   .content-section {
     margin: 0 0 1rem;
     .resume-item { margin-bottom: 1rem; }
-    .resume-item-title {
+    .resume-item-title, 
+    .resume-item-title-small{
       font-size: 16px;
       line-height: .7em;
     }
