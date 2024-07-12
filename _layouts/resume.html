@@ -105,7 +105,7 @@
           {% for project in site.data.projects %}
           <div class="resume-item" itemscope itemtype="http://schema.org/CreativeWork">
             <meta itemprop="creator" content="{{ site.resume_name }}" itemtype="http://schema.org/Person" />
-            <h4 class="resume-item-title" itemprop="name">{% if project.url %}<a href="{{ project.url }}" itemprop="url">{{ project.project }}</a>{% else %}{{ project.project }}{% endif %}</h4>
+            <h4 class="resume-item-title-small" itemprop="name">{% if project.url %}<a href="{{ project.url }}" itemprop="url">{{ project.project }}</a>{% else %}{{ project.project }}{% endif %}</h4>
             <h4 class="resume-item-details" itemprop="description">{{ project.role }}  &bull; {{ project.duration }}</h4>
             <p class="resume-item-copy">{{ project.description }}</p>
           </div>
@@ -126,7 +126,7 @@
 
         {% for job in site.data.experience %}
         <div class="resume-item" itemscope itemprop="worksFor" itemtype="http://schema.org/Organization">
-          <h3 class="resume-item-title-small" itemprop="name">{{ job.company }}</h3>
+          <h3 class="resume-item-title" itemprop="name">{{ job.company }}</h3>
           <h4 class="resume-item-details" itemprop="description">{{ job.position }} &bull; {{ job.duration }}</h4>
           <p class="resume-item-copy">{{ job.summary }}</p>
         </div><!-- end of resume-item -->
