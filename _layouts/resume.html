@@ -67,7 +67,15 @@
             </ul>
 
 
-          <p class="resume-item-copy">{{ education.thesis.title }}</p>
+          <p class="resume-item-copy">
+            Thesis title: education.thesis.title
+            Supervisor: education.thesis.supervisor
+            Collaboration:
+            - education.thesis.collaboration[0]
+            - education.thesis.collaboration[1]
+            Institution: education.thesis.institution
+            Objective: education.thesis.objective
+          </p>
         </div>
         {% endfor %}
       </section>
