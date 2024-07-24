@@ -62,7 +62,7 @@ resume_social_links:
   # resume_facebook_url:          "insert Facebook URL here"
   resume_linkedin_url:          "https://www.linkedin.com/in/ms-alharbi"
   # resume_instagram_url:         "insert your Instagram URL here"
-  resume_website_url:           "_assets/cv/cv.pdf"
+  resume_website_url:           "cv/cv.pdf"
   # resume_medium_url:            "https://medium.com/@jglovier"
 resume_print_social_links:      false
 
