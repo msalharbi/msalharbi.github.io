@@ -93,6 +93,24 @@
       </section>
       <!-- end Interests -->
       {% endif %}
+      {% if site.resume_section_languages %}
+
+      <!-- begin languages -->
+      <section class="content-section">
+
+        <header class="section-header">
+          <h2>Languages</h2>
+        </header>
+        {% for language in site.data.languages %}
+        <div class="resume-item">
+          <h4 class="resume-item-details">{{ language.language }}</h4>
+          <p class="resume-item-copy">{{ language.description }}</p>
+        </div>
+        {% endfor %}
+
+      </section>
+      <!-- end languages -->
+      {% endif %}
 
 
       {% if site.resume_section_projects %}
