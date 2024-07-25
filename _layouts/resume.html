@@ -101,12 +101,19 @@
         <header class="section-header">
           <h2>Languages</h2>
         </header>
-        {% for language in site.data.languages %}
+        <!-- {% for language in site.data.languages %}
         <div class="resume-item">
           <h4 class="resume-item-details">{{ language.language }}: {{ language.description }}</h4>
-          <!-- <p class="resume-item-copy">{{ language.description }}</p> -->
         </div>
-        {% endfor %}
+        {% endfor %} -->
+
+        <div class="resume-item">
+          <ul class="resume-item-list">
+            {% for language in site.data.languages %}
+            <li><h4 class="resume-item-details">{{ language.language }}: {{ language.description }}</h4></li>
+            {% endfor %}
+          </ul>
+        </div>
 
       </section>
       <!-- end languages -->
