@@ -1,5 +1,10 @@
 # Associations
 # comment out the urls if you do not wish to display them
+- # organization: PETA
+  role: "Hackathon Judge at Buraydah Tech Hackathon for Sustainable Solutions (BST)"
+  year: 2024
+  # url: https://www.peta.org/
+  # summary: Organized fund drives and participated in fundraising events for the benefit of PETA's local Springfield operations.
 
 - # organization: PETA
   role: "Workshop presented: NLTK in Translation Applications, Computer-Assisted Literary Translation (CALT)"
