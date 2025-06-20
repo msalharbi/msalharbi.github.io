@@ -123,20 +123,38 @@
       {% if site.resume_section_projects %}
         <!-- begin Projects -->
         <section class="content-section">
-          <header class="section-header">
-            <h2>Research Contributions</h2> <a href="https://scholar.google.com/citations?user=kikFxDwAAAAJ&hl=en">Google scholar</a>
-          </header>
-  
-          {% for project in site.data.projects %}
-          <div class="resume-item" itemscope itemtype="http://schema.org/CreativeWork">
-            <meta itemprop="creator" content="{{ site.resume_name }}" itemtype="http://schema.org/Person" />
-            <h4 class="resume-item-title-small" itemprop="name">{% if project.url %}<a href="{{ project.url }}" itemprop="url">{{ project.project }}</a>{% else %}{{ project.project }}{% endif %}</h4>
-            <h4 class="resume-item-details" itemprop="description">{{ project.role }}  &bull; {{ project.duration }}</h4>
-            <p class="resume-item-copy">{{ project.description }}</p>
-          </div>
-        {% endfor %}
-  
-        </section>
+  <header class="section-header">
+    <h2>Research Contributions</h2> 
+    <a href="https://scholar.google.com/citations?user=kikFxDwAAAAJ&hl=en">Google Scholar</a>
+  </header>
+
+  {% for year_group in site.data.projects.research_contributions %}
+    <h3>{{ year_group.year }}</h3>
+
+    {% for project in year_group.entries %}
+      <div class="resume-item" itemscope itemtype="http://schema.org/CreativeWork">
+        <meta itemprop="creator" content="{{ site.resume_name }}" itemtype="http://schema.org/Person" />
+        
+        <h4 class="resume-item-title-small" itemprop="name">
+          {% if project.url %}
+            <a href="{{ project.url }}" itemprop="url">{{ project.project }}</a>
+          {% else %}
+            {{ project.project }}
+          {% endif %}
+        </h4>
+
+        <h4 class="resume-item-details" itemprop="description">
+          {{ project.role }}{% if project.venue %} &bull; {{ project.venue }}{% endif %}
+        </h4>
+
+        {% if project.description %}
+          <p class="resume-item-copy">{{ project.description }}</p>
+        {% endif %}
+      </div>
+    {% endfor %}
+  {% endfor %}
+</section>
+
         <!-- end Projects -->
         {% endif %}
   
