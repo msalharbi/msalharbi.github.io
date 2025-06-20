@@ -193,13 +193,13 @@
       <!-- <li><h3>2016 &mdash; 2020</h3></li> -->
       {% for cert in site.data.trainings %}
       <div class="resume-item">
-        <h4 class="resume-item-title">
+        <h4 class="resume-item-title-small" itemprop="name">
           {% if cert.url %}
           <a href="{{ cert.url }}">{{ cert.title }}</a>
           {% else %}
           {{ cert.title }}
           {% endif %}
-        </h4>
+        </h3>
         <h4 class="resume-item-details">{{ cert.organization }} • {{ cert.date }}</h4>
       </div>
       {% endfor %}
