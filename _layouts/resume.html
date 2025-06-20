@@ -191,12 +191,16 @@
         <h2>Certificates & Training</h2>
       </header>
       <!-- <li><h3>2016 &mdash; 2020</h3></li> -->
-      {% for training in site.data.trainings %}
-      <div class="resume-item" itemscope itemprop="memberOf" itemtype="http://schema.org/Organization">
-        <h3 class="resume-item-title" itemprop="name">{% if training.url %}<a href="{{ training.url }}">{{
-            training.organization }}</a>{% else %}{{ training.organization }}{% endif %}</h3>
-        <h4 class="resume-item-details" itemprop="description">{{ training.role }} &bull; {{ training.year }}</h4>
-        <p class="resume-item-copy">{{ training.summary }}</p>
+      {% for cert in site.data.certifications %}
+      <div class="resume-item">
+        <h4 class="resume-item-title">
+          {% if cert.url %}
+          <a href="{{ cert.url }}">{{ cert.title }}</a>
+          {% else %}
+          {{ cert.title }}
+          {% endif %}
+        </h4>
+        <h4 class="resume-item-details">{{ cert.organization }} • {{ cert.date }}</h4>
       </div>
       {% endfor %}
 
