@@ -128,10 +128,10 @@
     <a href="https://scholar.google.com/citations?user=kikFxDwAAAAJ&hl=en">Google Scholar</a>
   </header>
 
-  {% for year_group in site.data.projects.research_contributions %}
-    <h3>{{ year_group.year }}</h3>
+  {% for year in site.data.projects %}
+    <h3>{{ year.year }}</h3>
 
-    {% for project in year_group.entries %}
+    {% for project in year.entries %}
       <div class="resume-item" itemscope itemtype="http://schema.org/CreativeWork">
         <meta itemprop="creator" content="{{ site.resume_name }}" itemtype="http://schema.org/Person" />
         
