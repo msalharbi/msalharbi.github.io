@@ -1,15 +1,16 @@
 # Degree
-- degree: PhD, Computer Science
-  uni: Swansea University
+- degree: "PhD, Computer Science"
+  uni: "Swansea University"
   year: 2021
-  summary: 
+  summary: |
     <p>
-      Thesis: <em>Interactive Visualization of Translations</em></br>
+      Thesis: <em>Interactive Visualization of Translations</em><br/>
       Supervised by Dr. Robert Laramee, this interdisciplinary project was a collaboration
       between the College of Arts and Humanities and the Department of Computer Science.
       The research focused on developing innovative visualization techniques to explore 
       and analyze parallel translations within the context of digital humanities.
     </p>
+
 
 - degree: MSc, Computing and Software Technology
   uni: Swansea University
