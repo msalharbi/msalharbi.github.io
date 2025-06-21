@@ -2,12 +2,9 @@
 
 **Computer Science Instructor @ TVTC**  
 📧 [msalharbi@gmail.com](mailto:msalharbi@gmail.com)  
-📞 +966 542245644  
 🌐 [msalharbi.github.io](https://msalharbi.github.io)  
 🔗 [LinkedIn](https://www.linkedin.com/in/ms-alharbi/)  
 🎓 [Google Scholar](https://scholar.google.com/citations?user=kikFxDwAAAAJ&hl=en)
-
-_Last updated: {{ site.time | date: "%B %d, %Y" }}_
 
 ---
 
@@ -25,20 +22,20 @@ _Last updated: {{ site.time | date: "%B %d, %Y" }}_
 
 ---
 
-## 🧠 Interests
+## Interests
 
 Information Visualization, Business Intelligence, Web Development & UX, Artificial Intelligence, and Data Science.
 
 ---
 
-## 🌍 Languages
+## Languages
 
 - **Arabic:** Native Proficiency  
 - **English:** Full Professional Proficiency
 
 ---
 
-## 📚 Research Contributions
+## Research Contributions
 
 ### 2021
 - *Cooperative Digital Humanities: A Methodology* – CDVE  
@@ -56,7 +53,7 @@ Information Visualization, Business Intelligence, Web Development & UX, Artifici
 
 ---
 
-## 💼 Experience
+## Experience
 
 - **Computer Science Instructor**, Buraidah College of Technology — 2016–Present  
 - **Teacher Assistant, Data Visualization**, Swansea University — 2018–2019  
@@ -71,7 +68,7 @@ Information Visualization, Business Intelligence, Web Development & UX, Artifici
 
 ---
 
-## 🎓 Certificates & Training
+## Certificates & Training
 
 - Data Visualization with Tableau – UC Davis (Coursera) — 11 July 2024  
 - Google Business Intelligence Certificate – Google (Coursera) — 10 June 2024  
@@ -88,7 +85,7 @@ Information Visualization, Business Intelligence, Web Development & UX, Artifici
 
 ---
 
-## 🎤 Activities & Engagement
+## Activities & Engagement
 
 ### 2024
 - Judge, BST Hackathon for Sustainable Solutions — Qassim TVTC
