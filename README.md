@@ -1,66 +1,113 @@
-# Resume template
+# Mohammad Alharbi, PhD
 
-*A simple Jekyll + GitHub Pages powered resume template.*
+**Computer Science Instructor @ TVTC**  
+📧 [msalharbi@gmail.com](mailto:msalharbi@gmail.com)  
+📞 +966 542245644  
+🌐 [msalharbi.github.io](https://msalharbi.github.io)  
+🔗 [LinkedIn](https://www.linkedin.com/in/ms-alharbi/)  
+🎓 [Google Scholar](https://scholar.google.com/citations?user=kikFxDwAAAAJ&hl=en)
 
-![img](images/screenshot.png)
+_Last updated: {{ site.time | date: "%B %d, %Y" }}_
 
-## Docs
+---
 
-### Running locally
+## 🎓 Education
 
-To test locally, run the following in your terminal:
+**Swansea University**  
+- PhD, Computer Science — 2021  
+  _Thesis: “Interactive Visualization of Translations”_  
+  Supervised by Dr. Robert Laramee, this interdisciplinary research was a collaboration between the College of Arts and Humanities and the Department of Computer Science. It focused on visualization techniques for parallel translations in digital humanities.
 
-1. Clone repo locally
-1. `bundle install`
-2. `bundle exec jekyll serve`
-3. Open your browser to `localhost:4000`
+- MSc, Computing and Software Technology — 2011
 
-### Running locally with Docker
+**Qassim University**  
+- BSc, Computer Science — 2005
 
-To test locally with docker, run the following in your terminal after installing docker into your system:
+---
 
-1. `docker image build -t resume-template .`
-2. `docker run --rm --name resume-template -v "$PWD":/home/app --network host resume-template`
+## 🧠 Interests
 
-### Customizing
+Information Visualization, Business Intelligence, Web Development & UX, Artificial Intelligence, and Data Science.
 
-First you'll want to fork the repo to your own account. Then clone it locally and customize, or use the GitHub web editor to customize.
+---
 
-#### Options/configuration
+## 🌍 Languages
 
-Most of the basic customization will take place in the `/_config.yml` file. Here is a list of customizations available via `/_config.yml`:
+- **Arabic:** Native Proficiency  
+- **English:** Full Professional Proficiency
 
-[...write these out...]
+---
 
-#### Editing content
+## 📚 Research Contributions
 
-Most of the content configuration will take place in the `/_layouts/resume.html` file. Simply edit the markup there accordingly
+### 2021
+- *Cooperative Digital Humanities: A Methodology* – CDVE  
+- *Visualization Resources: A Starting Point* – IV (Co-author)  
+- *VNLP: Visible Natural Language Processing* – _Information Visualization Journal_
 
-### Publishing to GitHub Pages for free
+### 2020
+- *AlignVis: Semi-Automatic Alignment and Visualization of Parallel Translations* – IV  
+- *TransVis: Integrated Distant and Close Reading of Othello Translations* – _IEEE TVCG_
 
-[GitHub Pages](https://pages.github.com/) will host this for free with your GitHub account. Just make sure you're using a `gh-pages` branch, and the site will automatically be available at `yourusername.github.io/resume-template` (you can rename the repo to resume for your own use if you want it to be available at `yourusername.github.io/resume`). You can also add a CNAME if you want it to be available at a custom domain...
+### 2019–2017
+- *SoS TextVis: An Extended Survey of Surveys on Text Visualization* – _Computers (MDPI)_  
+- *SoS TextVis: A Survey of Surveys on Text Visualization* – CGVC  
+- *Molecular Visualization of Computational Biology Data: A Survey of Surveys* – EuroVis Short (Co-author)
 
-### Configuring with your own domain name
+---
 
-To setup your GH Pages site with a custom domain, [follow the instructions](https://help.github.com/articles/setting-up-a-custom-domain-with-github-pages/) on the GitHub Help site for that topic.
+## 💼 Experience
 
-### Themes
+- **Computer Science Instructor**, Buraidah College of Technology — 2016–Present  
+- **Teacher Assistant, Data Visualization**, Swansea University — 2018–2019  
+- **Vice Dean for Training**, HCT — 2014–2016  
+- **Training Quality Coordinator**, HCT — 2013–2014  
+- **Head of Exams Center**, King Faisal University — 2013–2016  
+- **Computer Science Lecturer (Temp)**, Majmaah University — 2012  
+- **ACCET Report Coordinator**, HCT — 2012–2013  
+- **Computer Science Instructor**, HCT — 2005–2016  
+- **Head of Private Training Unit**, HCT — 2005–2009  
+- **Secretary, Board of Technical and Vocational Training in Hafer Albatin**, TVTC — 2005–2007
 
-Right now resume-template only has one theme. More are coming :soon: though. :heart:
+---
 
-## Roadmap
+## 🎓 Certificates & Training
 
-A feature roadmap is [available here](https://github.com/jglovier/resume-template/projects/1). If you features suggestions, please [open a new issue](https://github.com/jglovier/resume-template/issues/new).
+- Data Visualization with Tableau – UC Davis (Coursera) — 11 July 2024  
+- Google Business Intelligence Certificate – Google (Coursera) — 10 June 2024  
+- HCIA-AI Certification – Huawei — 24 November 2022  
+- Quantitative Text Analysis – University of Essex — 6 August 2018 (2 weeks)  
+- Doctoral Training Center (DTC) Series – Swansea University — 2016–2017  
+- Train the Trainer – Saudi Aramco — October 2012  
+- Vocational Guidance Instructor – TVTC — April 2008  
+- Web Development Tools – HCT — November 2006  
+- Systems Design and Analysis – HCT — November 2006  
+- Technical Education Program – Institute of Technology, Christchurch (NZ) — August 2005 (3 months)  
+- Creativity and Innovation Program – Colleges of Excellence — December 2024  
+- Market Trends Program – Colleges of Excellence — 2017
 
-## Contributing
+---
 
-If you spot a bug, or want to improve the code, or even make the dummy content better, you can do the following:
+## 🎤 Activities & Engagement
 
-1. [Open an issue](https://github.com/jglovier/resume-template/issues/new) describing the bug or feature idea
-2. Fork the project, make changes, and submit a pull request
+### 2024
+- Judge, BST Hackathon for Sustainable Solutions — Qassim TVTC
 
-## License
+### 2019
+- Workshop: NLTK in Translation Applications — CALT
 
-The code and styles are licensed under the MIT license. [See project license.](LICENSE) Obviously you should not use the content of this demo repo in your own resume. :wink:
+### 2018
+- Organizer, CGVC Conference  
+- Workshop: Intro to NLTK — CGVC  
+- Workshop: Parallel Translations — Swansea PG Conf.  
+- Workshop: Integrated Distant and Close Reading — Visible Lunch with Prof. Ben Shneiderman
 
-Disclaimer: Use of Homer J. Simpson image and name used under [Fair Use](https://en.wikipedia.org/wiki/Fair_use) for educational purposes. Project license does not apply to use of this material.
+### 2017
+- Poster: Integrated Distant and Close Reading — Swansea PG Conf.
+
+### Before 2016
+- Chairman, E-learning Committee — HCT  
+- Member, Programming Curriculum Committee — HCT  
+- Supervisor, Virtual Classes Initiative — HCT  
+- Founder, HCT Media Center  
+- Contributor, Vocational Orientation Co
