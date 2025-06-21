@@ -199,8 +199,8 @@
           {% else %}
           {{ cert.title }}
           {% endif %}
-        </h3>
-        <h4 class="resume-item-details">{{ cert.organization }} • {{ cert.date }}</h4>
+          </h3>
+          <h4 class="resume-item-details">{{ cert.organization }} • {{ cert.date }}</h4>
       </div>
       {% endfor %}
 
@@ -253,19 +253,16 @@
       <header class="section-header">
         <h2>Participations</h2>
       </header>
-      <ul style="margin:0;padding:0">
-        <li>
-          <h3>2017 &mdash; </h3>
-        </li>
-      </ul>
+
       <!-- <li><h3>2016 &mdash; 2020</h3></li> -->
-      {% for association in site.data.associations %}
-      <div class="resume-item" itemscope itemprop="memberOf" itemtype="http://schema.org/Organization">
-        <h3 class="resume-item-title" itemprop="name">{% if association.url %}<a href="{{ association.url }}">{{
-            association.organization }}</a>{% else %}{{ association.organization }}{% endif %}</h3>
-        <h4 class="resume-item-details" itemprop="description">{{ association.role }} &bull; {{ association.year }}</h4>
-        <p class="resume-item-copy">{{ association.summary }}</p>
-      </div>
+      {% for year_block in site.data.associations %}
+      <h3>{{ year_block.year }}</h3>
+        {% for entry in year_block.entries %}
+        <div class="resume-item">
+          <h4 class="resume-item-title">{{ entry.title }}</h4>
+          <p class="resume-item-copy">{{ entry.description }}</p>
+        </div>
+        {% endfor %}
       {% endfor %}
 
       <ul style="margin:0;padding:0">

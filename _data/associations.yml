@@ -1,45 +1,103 @@
-# Associations
-# comment out the urls if you do not wish to display them
-- # organization: PETA
-  role: "Hackathon Judge at Buraydah Sustainable Tech (BST) Hackathon for Sustainable Solutions, organized by the General Directorate of Technical and Vocational Training in Qassim"
-  year: 2024
-  # url: https://www.peta.org/
-  # summary: Organized fund drives and participated in fundraising events for the benefit of PETA's local Springfield operations.
+# # Associations
 
-- # organization: PETA
-  role: "Workshop presented: NLTK in Translation Applications, Computer-Assisted Literary Translation (CALT)"
-  year: 2019
-  # url: https://www.peta.org/
-  # summary: Organized fund drives and participated in fundraising events for the benefit of PETA's local Springfield operations.
+- year: 2024
+  entries:
+    - title: "Hackathon Judge"
+      description: "Buraydah Sustainable Tech (BST) Hackathon for Sustainable Solutions, organized by the General Directorate of Technical and Vocational Training in Qassim"
 
-- # organization: PETA
-  role: Local organizer at the Computer Graphics & Visual Computing (CGVC) conference
-  year: 2018
-  # url: https://www.peta.org/
-  # summary: Organized fund drives and participated in fundraising events for the benefit of PETA's local Springfield operations.
+- year: 2019
+  entries:
+    - title: "Workshop Presented: NLTK in Translation Applications"
+      description: "Computer-Assisted Literary Translation (CALT)"
+
+- year: 2018
+  entries:
+    - title: "Local Organizer"
+      description: "Computer Graphics & Visual Computing (CGVC) conference"
+
+    - title: "Workshop Presented: Introduction to The Natural Language Toolkit (NLTK)"
+      description: "Computer Graphics & Visual Computing (CGVC) conference"
+
+    - title: "Workshop Presented: Parallel Translations"
+      description: "Post Graduate Conference, Swansea University"
+
+    - title: "Workshop Presented: Integrated Distant and Close Reading of Parallel Translations"
+      description: "Special Visible Lunch with Prof. Ben Shneiderman"
+
+- year: 2017
+  entries:
+    - title: "Poster Presented: Integrated Distant and Close Reading of Parallel Translations"
+      description: "Post Graduate Conference, Swansea University"
+
+- year: 2016–2017
+  entries:
+    - title: "Chairman of the Committee"
+      description: "Development and evaluation of e-learning training at HCT"
+
+- year: 2015–2016
+  entries:
+    - title: "Scientific Committee Member"
+      description: "Assessing and designing curricula of the programming technology specialization"
+
+- year: 2014–2016
+  entries:
+    - title: "Supervisor"
+      description: "Virtual classes initiative at HCT"
+
+- year: 2015
+  entries:
+    - title: "Founder"
+      description: "HCT media center to support training"
+
+    - title: "Contributor"
+      description: "Development of a scheme to support training and delivery of the vocational orientation course"
+
+    - title: "Executive Member"
+      description: "HCT team for the Capability-Building Project (TVTC)"
 
 
-- # organization: PETA
-  role: "Workshop presented: Introduction to The Natural Language Toolkit (NLTK), CGVC"
-  year: 2018
-  # url: https://www.peta.org/
-  # summary: Organized fund drives and participated in fundraising events for the benefit of PETA's local Springfield operations.
 
-- # organization: PETA
-  role: "Workshop presented: Parallel Translations, Post Graduate Conference, Swansea University"
-  year: 2018
-  # url: https://www.peta.org/
-  # summary: Organized fund drives and participated in fundraising events for the benefit of PETA's local Springfield operations.
+# # comment out the urls if you do not wish to display them
+# - # organization: PETA
+#   role: "Hackathon Judge at Buraydah Sustainable Tech (BST) Hackathon for Sustainable Solutions, organized by the General Directorate of Technical and Vocational Training in Qassim"
+#   year: 2024
+#   # url: https://www.peta.org/
+#   # summary: Organized fund drives and participated in fundraising events for the benefit of PETA's local Springfield operations.
 
-- # organization: PETA
-  role: "Workshop presented: Integrated Distant and Close Reading of Parallel Translations, Special Visible Lunch with Prof Ben Shneiderman"
-  year: 2018
-  # url: https://www.peta.org/
-  # summary: Organized fund drives and participated in fundraising events for the benefit of PETA's local Springfield operations.
+# - # organization: PETA
+#   role: "Workshop presented: NLTK in Translation Applications, Computer-Assisted Literary Translation (CALT)"
+#   year: 2019
+#   # url: https://www.peta.org/
+#   # summary: Organized fund drives and participated in fundraising events for the benefit of PETA's local Springfield operations.
 
-- # organization: PETA
-  role: "Poster presented: Integrated Distant and Close Reading of Parallel Translations, Post Graduate Conference, Swansea University "
-  year: 2017
-  # url: https://www.peta.org/
-  # summary: Organized fund drives and participated in fundraising events for the benefit of PETA's local Springfield operations.
+# - # organization: PETA
+#   role: Local organizer at the Computer Graphics & Visual Computing (CGVC) conference
+#   year: 2018
+#   # url: https://www.peta.org/
+#   # summary: Organized fund drives and participated in fundraising events for the benefit of PETA's local Springfield operations.
+
+
+# - # organization: PETA
+#   role: "Workshop presented: Introduction to The Natural Language Toolkit (NLTK), CGVC"
+#   year: 2018
+#   # url: https://www.peta.org/
+#   # summary: Organized fund drives and participated in fundraising events for the benefit of PETA's local Springfield operations.
+
+# - # organization: PETA
+#   role: "Workshop presented: Parallel Translations, Post Graduate Conference, Swansea University"
+#   year: 2018
+#   # url: https://www.peta.org/
+#   # summary: Organized fund drives and participated in fundraising events for the benefit of PETA's local Springfield operations.
+
+# - # organization: PETA
+#   role: "Workshop presented: Integrated Distant and Close Reading of Parallel Translations, Special Visible Lunch with Prof Ben Shneiderman"
+#   year: 2018
+#   # url: https://www.peta.org/
+#   # summary: Organized fund drives and participated in fundraising events for the benefit of PETA's local Springfield operations.
+
+# - # organization: PETA
+#   role: "Poster presented: Integrated Distant and Close Reading of Parallel Translations, Post Graduate Conference, Swansea University "
+#   year: 2017
+#   # url: https://www.peta.org/
+#   # summary: Organized fund drives and participated in fundraising events for the benefit of PETA's local Springfield operations.
 
