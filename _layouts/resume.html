@@ -259,24 +259,10 @@
       <h3>{{ year_block.year }}</h3>
         {% for entry in year_block.entries %}
         <div class="resume-item">
-          <h4 class="resume-item-title">{{ entry.title }}</h4>
+          <h3 class="resume-item-title">{{ entry.title }}</h3>
           <p class="resume-item-copy">{{ entry.description }}</p>
         </div>
         {% endfor %}
-      {% endfor %}
-
-      <ul style="margin:0;padding:0">
-        <li>
-          <h3>Before 2016</h3>
-        </li>
-      </ul>
-      {% for association in site.data.associations1 %}
-      <div class="resume-item" itemscope itemprop="memberOf" itemtype="http://schema.org/Organization">
-        <h3 class="resume-item-title" itemprop="name">{% if association.url %}<a href="{{ association.url }}">{{
-            association.organization }}</a>{% else %}{{ association.organization }}{% endif %}</h3>
-        <h4 class="resume-item-details" itemprop="description">{{ association.role }} &bull; {{ association.year }}</h4>
-        <p class="resume-item-copy">{{ association.summary }}</p>
-      </div>
       {% endfor %}
 
     </section>
