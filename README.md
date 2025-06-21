@@ -8,7 +8,7 @@
 
 ---
 
-## 🎓 Education
+## Education
 
 **Swansea University**  
 - PhD, Computer Science — 2021  
