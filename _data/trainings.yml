@@ -1,10 +1,22 @@
+- title: "Data Storytelling"
+  organization: "Fractal Analytics"
+  date: "15 June 2025"
+
+- title: "Creativity and Innovation"
+  organization: "Colleges of Excellence (in cooperation with TVTC)"
+  date: "1–5 December 2024"
+
 - title: "Data Visualization with Tableau Certificate"
   organization: "Coursera – University of California, Davis"
   date: "11 July 2024"
 
 - title: "Google Business Intelligence Certificate"
-  organization: "Google / Coursera"
+  organization: "Google - Coursera"
   date: "10 June 2024"
+
+- title: "Market Trends"
+  organization: "Colleges of Excellence (in cooperation with TVTC)"
+  date: "5–9 May 2024"
 
 - title: "Huawei Certified ICT Associate – Artificial Intelligence (HCIA-AI)"
   organization: "Huawei"
@@ -44,67 +56,3 @@
   # date: ""
 
 
-# - # organization: PETA
-#   role: Data Visualization with Tableau Certificate (Coursera Specialization by University of California, Davis)
-#   year: 11 July 2024 
-#   # summary: Organized fund drives and participated in fundraising events for the benefit of PETA's local Springfield operations.
-
-# - # organization: PETA
-#   role: Google Business Intelligence Certificate
-#   year: 10 Jun 2024 
-#   # summary: Organized fund drives and participated in fundraising events for the benefit of PETA's local Springfield operations.
-
-# - # organization: PETA
-#   role: Huawei Certified ICT Associate-Artificial Intelligence (HCIA-AI) Certification, Huawei
-#   year: 24 Nov 2022 
-#   url: https://e.huawei.com/en/talent/#/cert/product-details?certifiedProductId=345&authenticationLevel=CTYPE_CARE_HCIA&technicalField=BSH
-#   # summary: Organized fund drives and participated in fundraising events for the benefit of PETA's local Springfield operations.
-
-# - # organization: PETA
-#   role: Quantitative Text Analysis course, Essex University
-#   year: 6 Aug 2018 (2 weeks)
-#   # url: https://www.peta.org/
-#   # summary: Organized fund drives and participated in fundraising events for the benefit of PETA's local Springfield operations.
-
-# - # organization: PETA
-#   role: The Doctoral Training Center (DTC) series, Swansea University, College of Science
-#   year: 2016 &mdash; 2017
-#   # url: https://www.peta.org/
-#   # summary: Organized fund drives and participated in fundraising events for the benefit of PETA's local Springfield operations.
-
-
-# - # organization: PETA
-#   role: Train the Trainer Program, Saudi Aramco, 6-10 Oct 2012
-#   year: 6-10 Oct 2012
-#   # url: https://www.peta.org/
-#   # summary: Organized fund drives and participated in fundraising events for the benefit of PETA's local Springfield operations.
-
-# - # organization: PETA
-#   role: The Instructor role towards vocational guidance, Development & training Centre (TVTC)
-#   year: 26-28 April 2008
-#   # url: https://www.peta.org/
-#   # summary: Organized fund drives and participated in fundraising events for the benefit of PETA's local Springfield operations.
-
-# - # organization: PETA
-#   role: The tools of web pages development, HCT
-#   year: 12 – 19 Nov 2006
-#   # url: https://www.peta.org/
-#   # summary: Organized fund drives and participated in fundraising events for the benefit of PETA's local Springfield operations.
-
-# - # organization: PETA
-#   role: Systems design and analysis, HCT
-#   year: 4-8 Nov 2006
-#   # url: https://www.peta.org/
-#   # summary: Organized fund drives and participated in fundraising events for the benefit of PETA's local Springfield operations.
-
-# - # organization: PETA
-#   role: English, Computing Studies, and Technical Education program, Institute of technology in Christchurch, New Zealand
-#   year: 24 Aug 2005 (3 months)
-#   # url: https://www.peta.org/
-#   # summary: Organized fund drives and participated in fundraising events for the benefit of PETA's local Springfield operations.
-
-# - # organization: PETA
-#   role: And many other sessions and workshops related to different disciplines
-#   # year: 24 Aug 2005 (3 months)
-#   # url: https://www.peta.org/
-#   # summary: Organized fund drives and participated in fundraising events for the benefit of PETA's local Springfield operations.
