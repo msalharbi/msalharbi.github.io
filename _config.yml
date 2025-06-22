@@ -17,10 +17,10 @@ resume_title:                   "Computer Science Instructor @ TVTC"
 resume_contact_email:           "msalharbi@gmail.com"
 
 # the next two items are used for schema itemprops in _layouts/resume.html
-resume_contact_telephone:       "(966) 542245644"
-resume_contact_address:         "7941 Omar Bin Alkhattab, Aljawharah, Unaizah"
+resume_contact_telephone:       ""
+resume_contact_address:         ""
 
-resume_header_contact_info:     "7941 Omar Bin Alkhattab, Aljawharah, Unaizah • (966) 542245644 • msalharbi@gmail.com"
+resume_header_contact_info:     "msalharbi@gmail.com"
 display_header_contact_info:    "true"
 
 resume_header_intro: ""
