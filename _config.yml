@@ -14,13 +14,13 @@ resume_name:                    "Mohammad Alharbi, PhD"
 resume_title:                   "Computer Science Instructor @ TVTC"
 
 # used for the contact button in _layouts/resume.html
-resume_contact_email:           "me@msalharbi.com"
+resume_contact_email:           "me@msalharbi.co"
 
 # the next two items are used for schema itemprops in _layouts/resume.html
 resume_contact_telephone:       ""
 resume_contact_address:         ""
 
-resume_header_contact_info:     "me@msalharbi.com | msalharbi@tvtc.gov.sa"
+resume_header_contact_info:     "me@msalharbi.co | msalharbi@tvtc.gov.sa"
 display_header_contact_info:    "false"
 
 resume_header_intro: ""
@@ -57,7 +57,7 @@ resume_section_trainings:       true
 # uncomment the options you wish to display, and add your own URL
 resume_social_links:
   # resume_github_url:            "https://github.com/jglovier/resume-template"
-  resume_email_url:             "mailto:me@msalharbi.com"
+  resume_email_url:             "mailto:me@msalharbi.co"
   resume_twitter_url:           "http://twitter.com/msalharbi"
   # resume_dribbble_url:          "https://dribbble.com/jag"
   # resume_facebook_url:          "insert Facebook URL here"
