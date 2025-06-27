@@ -20,8 +20,8 @@ resume_contact_email:           "me@msalharbi.co"
 resume_contact_telephone:       ""
 resume_contact_address:         ""
 
-resume_header_contact_info:     "me@msalharbi.co | msalharbi@tvtc.gov.sa"
-display_header_contact_info:    "false"
+resume_header_contact_info:     "me@msalharbi.co"
+display_header_contact_info:    "true"
 
 resume_header_intro: ""
 # "<p>I love data visualization and believe they are the best to communicate important messages to the audience.
