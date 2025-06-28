@@ -45,6 +45,15 @@
       {% endif %}
 
 
+      <nav class="navbar" style="padding: 10px; background: #f5f5f5;">
+        <a href="{{ '/' | relative_url }}" style="margin-right:15px;">Home</a>
+        <a href="{{ '/#education' | relative_url }}" style="margin-right:15px;">Education</a>
+        <a href="{{ '/#experience' | relative_url }}" style="margin-right:15px;">Experience</a>
+        <a href="{{ '/#research-contributions' | relative_url }}" style="margin-right:15px;">Research</a>
+        <a href="{{ '/#certificates-training' | relative_url }}" style="margin-right:15px;">Certificates</a>
+        <a href="{{ '/#contact' | relative_url }}">Contact</a>
+      </nav>
+
     </header>
 
     {% if site.resume_section_education %}
