@@ -46,12 +46,11 @@
 
 
       <nav class="navbar" style="padding: 10px; background: #f5f5f5;">
-        <a href="{{ '/' | relative_url }}" style="margin-right:15px;">Home</a>
         <a href="{{ '/#education' | relative_url }}" style="margin-right:15px;">Education</a>
-        <a href="{{ '/#experience' | relative_url }}" style="margin-right:15px;">Experience</a>
         <a href="{{ '/#research-contributions' | relative_url }}" style="margin-right:15px;">Research</a>
+        <a href="{{ '/#experience' | relative_url }}" style="margin-right:15px;">Experience</a>
         <a href="{{ '/#certificates-training' | relative_url }}" style="margin-right:15px;">Certificates</a>
-        <a href="{{ '/#contact' | relative_url }}">Contact</a>
+        <a href="{{ '/#activities-engagements' | relative_url }}" style="margin-right:15px;">Activities & Engagements</a>
       </nav>
 
     </header>
@@ -60,7 +59,7 @@
     <!-- begin Education -->
     <section class="content-section">
       <header class="section-header">
-        <h2>Education</h2>
+        <h2 id="education">Education</h2>
       </header>
 
       {% for education in site.data.education %}
@@ -89,7 +88,7 @@
     <section class="content-section">
 
       <header class="section-header">
-        <h2>Interests</h2>
+        <h2 id="interests">Interests</h2>
       </header>
 
       <div class="resume-item">
@@ -136,7 +135,7 @@
     <!-- begin Projects -->
     <section class="content-section">
       <header class="section-header">
-        <h2>Research Contributions</h2>
+        <h2 id="research-contributions">Research Contributions</h2>
         <a href="https://scholar.google.com/citations?user=kikFxDwAAAAJ&hl=en">Google Scholar</a>
       </header>
 
@@ -176,7 +175,7 @@
     <section class="content-section">
 
       <header class="section-header">
-        <h2>Experience</h2>
+        <h2 id="experience">Experience</h2>
       </header>
 
       {% for job in site.data.experience %}
@@ -197,7 +196,7 @@
     <section class="content-section">
 
       <header class="section-header">
-        <h2>Certificates & Training</h2>
+        <h2 id="certificates-training">Certificates & Training</h2>
       </header>
       <!-- <li><h3>2016 &mdash; 2020</h3></li> -->
       {% for cert in site.data.trainings %}
@@ -260,7 +259,7 @@
     <section class="content-section">
 
       <header class="section-header">
-        <h2>Activities & Engagements</h2>
+        <h2 id="activities-engagements">Activities & Engagements</h2>
       </header>
 
       <!-- <li><h3>2016 &mdash; 2020</h3></li> -->
